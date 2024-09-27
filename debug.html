@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cisco Umbrella Chromebook client debug information</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .alert-danger {
+            color: #a94442;
+            /* background-color: #f2dede; */
+            /* border-color: #ebccd1 */
+        }
+
+        .alert {
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+        }
+        
+        .center-div {
+            text-align: center;
+        }
+        .center-table { 
+            margin: 0px auto;
+        }
+        
+    </style>
+    <script type="text/javascript" async="" src="./resources/js/debugUtil.js"></script>
+</head>
+
+<body>
+    <div class="center-div">
+        <h1>Cisco Umbrella Chromebook client</h1>
+        <h5 id="collectionDateTime"></h5>
+        <p id="error" class="alert alert-danger"></p>
+        <table id="debugParams" class="center-table">
+            <tr>
+                <td>OS</td>
+                <td id="os">Information not available</td>
+            </tr>
+            <tr>
+                <td>OS Version</td>
+                <td id="osVersion">Information not available</td>
+            </tr>
+            <tr>
+                <td>Status</td>
+                <td id="status">Information not available</td>
+            </tr>
+            <tr>
+                <td>User Email</td>
+                <td id="userEmail">Information not available</td>
+            </tr>
+            <tr>
+                <td>Local IP</td>
+                <td id="localIP">Information not available</td>
+            </tr>
+            <tr>
+                <td>Policy Url</td>
+                <td><span id='policyUrlSpan'><a href="" id="policyUrl" rel="noopener" target="_blank"></a><span></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

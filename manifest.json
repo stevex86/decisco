@@ -1,0 +1,27 @@
+{
+   "background": {
+      "scripts": [ "idInfo.js", "utils.js", "logger.js", "cache.js", "config.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/ucc-19-bw.png"
+      },
+      "default_title": "Umbrella Chromebook client"
+   },
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
+   "default_locale": "en_US",
+   "description": "Cisco Umbrella Chromebook client protects users by blocking malicious requests and helps admins to filter in-appropriate domains.",
+   "icons": {
+      "128": "images/ucc-128.png",
+      "16": "images/ucc-16.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAneFC231aW78irWOrq/eQMythFPSfnj83X32Oj3MoG34shywuIIklZqkwLf5660NmGdasCx5HWKBQEWvmyfuOCZmBKvX+xz+6EwSkHK2t+JWdSgT73ceuH+Hgv/ixi2UU/xUIvaSwN8fKSWwn4X60qImSWx7bYeNoe1d8oNEI1Z9T73Q4ht3CbmvKS0xP0jEJW55XLsj4oDVwNMPe0QmKzYlskvO7chqan6TYmBDJjjN4FkWrcAxgCKo6ywa7mQl4TVw0xqMCyltsraxaBUsoB++jez6LqJQrP7zEU/WajMIQ4T0zNn0TAZOqItIcik2iw7Qe4ql14zuYyHvCfJnotwIDAQAB",
+   "manifest_version": 2,
+   "name": "Cisco Umbrella Chromebook client (Ext)",
+   "permissions": [ "webRequest", "alarms", "storage", "webRequestBlocking", "enterprise.deviceAttributes", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.4",
+   "version_name": "v1.3.4",
+   "web_accessible_resources": [ "blocked.html" ]
+}

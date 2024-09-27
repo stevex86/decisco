@@ -1,0 +1,32 @@
+{
+   "block_message_block": {
+      "message": "このwebサイトは、管理者によってブロックされています。"
+   },
+   "block_message_default": {
+      "message": "このサイトはセキュリティに対する脅威があるためブロックされました。"
+   },
+   "block_message_malware": {
+      "message": "このサイトはセキュリティに対する脅威があるためブロックされました。"
+   },
+   "block_message_phish": {
+      "message": "このサイトはフィッシングの恐れがあるためブロックされました。"
+   },
+   "block_page_description": {
+      "message": "Cisco Umbrellaセキュリティの脅威情報に基づいて、ブラウザに対する攻撃を防ぐために、このwebサイトへのアクセスがブロックされました。"
+   },
+   "block_page_message": {
+      "message": "セキュリティ脅威の検出とブロック"
+   },
+   "custom_message_block": {
+      "message": "詳細については、管理者に連絡してください。"
+   },
+   "custom_message_malware": {
+      "message": ""
+   },
+   "custom_message_phish": {
+      "message": "フィッシングは、口実を偽って個人情報を提供させる詐欺行為です。"
+   },
+   "title_text": {
+      "message": "サイトがブロックされました"
+   }
+}

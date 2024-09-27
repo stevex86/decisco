@@ -1,0 +1,32 @@
+{
+   "block_message_block": {
+      "message": "This website is blocked by your Administrator."
+   },
+   "block_message_default": {
+      "message": "This site is blocked due to a security threat."
+   },
+   "block_message_malware": {
+      "message": "This site is blocked due to a security threat."
+   },
+   "block_message_phish": {
+      "message": "This site is blocked due to a phishing threat."
+   },
+   "block_page_description": {
+      "message": "Based on Cisco Umbrella security threat information, access to this web site has been blocked to prevent an attack on your browser."
+   },
+   "block_page_message": {
+      "message": "SECURITY THREAT DETECTED AND BLOCKED"
+   },
+   "custom_message_block": {
+      "message": "Please reach out to your administrator for further information."
+   },
+   "custom_message_malware": {
+      "message": ""
+   },
+   "custom_message_phish": {
+      "message": "Phishing is a fraudulent attempt to get you to provide personal information under false pretenses."
+   },
+   "title_text": {
+      "message": "Site Blocked"
+   }
+}
