@@ -27,7 +27,7 @@ jobs:
       - name: Generate CRX
         uses: cardinalby/webext-buildtools-chrome-crx-action@v2
         with:
-          zipFilePath: 'build/extension.zip'
+          zipFilePath: 'build/decisco.zip'
           crxFilePath: 'build/decisco.crx'
           privateKey: ${{ secrets.CHROME_CRX_PRIVATE_KEY }}
 
