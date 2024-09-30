@@ -27,5 +27,6 @@ jobs:
         run: |
           git config --global user.name 'stevex86'
           git config --global user.email 'stevex86@users.noreply.github.com'
+          git add ./build
           git commit -am "Generated CRX"
           git push
