@@ -15,8 +15,8 @@ jobs:
 
       - name: Remove current build
         run: |
-          rm build/decisco.crx
-          rm build/decisco.zip
+          rm -f build/decisco.crx
+          rm -f build/decisco.zip
       
       - name: Pack extension
         uses: cardinalby/webext-buildtools-pack-extension-dir-action@v1
