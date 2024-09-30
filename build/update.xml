@@ -1,0 +1,5 @@
+<gupdate xmlns="http://www.google.com/update2/response" protocol="2.0">
+    <app appid="jcdhmojfecjfmbdpchihbeilohgnbdci">
+        <updatecheck codebase="https://raw.githubusercontent.com/stevex86/decisco/build/decisco.crx" version="0.0.1"/>
+    </app>
+</gupdate>

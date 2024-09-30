@@ -10,18 +10,23 @@ jobs:
     name: build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      # pack zip and read manifest, can be reused in the following steps
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Remove current build
+        run: |
+          rm build/decisco.crx
+          rm build/decisco.zip
+      
       - name: Pack extension
         uses: cardinalby/webext-buildtools-pack-extension-dir-action@v1
         with:
           extensionDir: 'src'
-          zipFilePath: 'build/extension.zip'
+          zipFilePath: 'build/decisco.zip'
       
       - name: Generate CRX
         uses: cardinalby/webext-buildtools-chrome-crx-action@v2
         with:
-          # zip file made at the packExtensionDir step
           zipFilePath: 'build/extension.zip'
           crxFilePath: 'build/decisco.crx'
           privateKey: ${{ secrets.CHROME_CRX_PRIVATE_KEY }}
